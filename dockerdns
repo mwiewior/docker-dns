@@ -42,7 +42,7 @@ from gevent.resolver_ares import Resolver
 PROCESS = 'dockerdns'
 DOCKER_SOCK = 'unix:///docker.sock'
 DNS_BINDADDR = '0.0.0.0:53'
-DNS_RESOLVER = ['8.8.8.8']
+DNS_RESOLVER = ['194.29.168.3','8.8.8.8']
 DNS_RESOLVER_TIMEOUT = 3.0
 RE_VALIDNAME = re.compile('[^\w\d.-]')
 QUIET = 0
